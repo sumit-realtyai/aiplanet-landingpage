@@ -40,7 +40,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
                 onClick={scrollToWorkingOn}
                 className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
@@ -60,8 +60,8 @@ const Hero = () => {
           </div>
 
           {/* Visual Element */}
-          <div className="relative flex justify-center items-center">
-            <div className="relative w-96 h-96">
+          <div className="w-full px-4 sm:px-0 flex justify-center">
+            <div className="relative w-72 sm:w-96 h-72 sm:h-96">
               {/* Central Planet */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full shadow-2xl animate-float">
                 <div className="absolute inset-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full">
